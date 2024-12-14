@@ -1,0 +1,12 @@
+{
+  "name": "blank-project",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "A blank project",
+  "author": "Coolchickenguy",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

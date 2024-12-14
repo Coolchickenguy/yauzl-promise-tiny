@@ -1,0 +1,43 @@
+{
+  "name": "yauzl-promise-tiny",
+  "version": "1.0.0",
+  "description": "Yauzl-promise monky-patched to 1.Not use node-gyp 2.Remove exessive dependencys (Without changing api) ",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coolchickenguy/yauzl-promise-tiny.git"
+  },
+  "keywords": [
+    "yauzl",
+    "unzip",
+    "zip",
+    "archive"
+  ],
+  "author": "Coolchickenguy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Coolchickenguy/yauzl-promise-tiny/issues"
+  },
+  "homepage": "https://github.com/Coolchickenguy/yauzl-promise-tiny#readme",
+  "dependencies": {
+    "@node-rs/crc32": "file:./noders-crc32-replacement",
+    "@babel/runtime": "file:./blank-project",
+    "globalthis": "file:./globalthis"
+  },
+  "peerDependencies": {
+    "yauzl-promise": "^4.0.0"
+  },
+  "overrides": {
+    "yauzl-promise": {
+      "@node-rs/crc32": "$@node-rs/crc32",
+      "is-it-type": {
+        "@babel/runtime": "$@babel/runtime",
+        "globalthis": "$globalthis"
+      }
+    }
+  }
+}

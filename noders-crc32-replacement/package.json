@@ -1,0 +1,12 @@
+{
+  "name": "noders-crc32-replacement",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "noders-crc32-replacement",
+  "author": "Coolchickenguy",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "crc-32": "^1.2.2"
+  }
+}
