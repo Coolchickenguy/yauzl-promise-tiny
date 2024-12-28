@@ -1,5 +1,5 @@
 # yauzl-promise-tiny
-Yauzl-promise monky-patched to 1.Not use node-gyp 2.Remove exessive dependencys (Without changing api)
+Yauzl-promise monkey-patched to 1.Not use node-gyp 2.Remove exessive dependencys (Without changing api)
 If you want a specific version, add it as a dependency (In this package it is set as a peer dependency)
 # Package Readme
 
